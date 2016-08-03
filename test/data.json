@@ -1,0 +1,30 @@
+{
+  "people": [
+    {
+      "name": "Jim",
+      "chores": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Elisa",
+      "chores": []
+    }
+  ],
+  "chores": [
+    {
+      "label": "Catbox",
+      "person": 0
+    },
+    {
+      "label": "Dishes",
+      "person": 0
+    },
+    {
+      "label": "Clean Bathroom",
+      "person": 0
+    }
+  ]
+}

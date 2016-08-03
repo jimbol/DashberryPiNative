@@ -1,0 +1,21 @@
+dependencies: \
+  /Users/jahall/Repos/DashberryPiNative/node_modules/react-native/React/Modules/RCTDevMenu.m \
+  /Users/jahall/Repos/DashberryPiNative/node_modules/react-native/React/Modules/RCTDevMenu.h \
+  /Users/jahall/Repos/DashberryPiNative/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/jahall/Repos/DashberryPiNative/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/jahall/Repos/DashberryPiNative/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/jahall/Repos/DashberryPiNative/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/jahall/Repos/DashberryPiNative/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/jahall/Repos/DashberryPiNative/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/jahall/Repos/DashberryPiNative/node_modules/react-native/React/Base/RCTJavaScriptExecutor.h \
+  /Users/jahall/Repos/DashberryPiNative/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/jahall/Repos/DashberryPiNative/node_modules/react-native/React/Base/RCTBridge+Private.h \
+  /Users/jahall/Repos/DashberryPiNative/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/jahall/Repos/DashberryPiNative/node_modules/react-native/React/Base/RCTKeyCommands.h \
+  /Users/jahall/Repos/DashberryPiNative/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/jahall/Repos/DashberryPiNative/node_modules/react-native/React/Profiler/RCTProfile.h \
+  /Users/jahall/Repos/DashberryPiNative/node_modules/react-native/React/Base/RCTRootView.h \
+  /Users/jahall/Repos/DashberryPiNative/node_modules/react-native/React/Modules/RCTSourceCode.h \
+  /Users/jahall/Repos/DashberryPiNative/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/jahall/Repos/DashberryPiNative/node_modules/react-native/React/Base/RCTWebSocketProxy.h \
+  /Users/jahall/Repos/DashberryPiNative/node_modules/react-native/React/Base/RCTWebSocketProxyDelegate.h
