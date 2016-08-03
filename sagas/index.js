@@ -4,6 +4,7 @@ import Api from '../api'
 
 function* fetchChores(action) {;
   try {
+    console.log('fetching chores');
     const chores = yield call(Api.fetchChores, action.user.idToken);
     console.log('fetchChores succeeded');
     yield put({type: "FETCH_CHORES_SUCCEEDED", chores: chores});
@@ -53,7 +54,7 @@ export default function* rootSaga() {
   yield fork(takeLatest, 'FETCH_CHORES', fetchChores)
   yield fork(takeEvery, 'CREATE_CHORE', createChore)
   yield fork(takeLatest, 'FETCH_USER', fetchUser)
-  // yield fork(takeLatest, 'FETCH_USER_SUCCEEDED', fetchChores)
+  yield fork(takeLatest, 'FETCH_USER_SUCCEEDED', fetchChores)
   yield fork(takeLatest, 'LOG_OUT', logOut)
   yield fork(takeLatest, 'LOG_IN', logIn)
 }

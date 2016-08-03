@@ -17,7 +17,6 @@ class Index extends Component {
   }
 
   getContent(){
-    console.log(this.props.route.id);
     switch (this.props.route.id) {
       case 'CHORES':
         return <Chores />
