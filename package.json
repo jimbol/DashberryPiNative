@@ -3,10 +3,14 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "react-native start --port=8999"
+    "setup": "rnpm link react-native-google-signin",
+    "start": "react-native start --port=8999",
+    "start-ios": "react-native run-ios"
   },
   "dependencies": {
-    "react": "^15.0.2",
+    "axios": "^0.13.1",
+    "deep-freeze": "0.0.1",
+    "react": "15.0.2",
     "react-native": "^0.26.2",
     "react-native-google-signin": "^0.8.0",
     "react-redux": "^4.4.5",
