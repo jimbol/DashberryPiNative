@@ -1,13 +1,11 @@
 import { combineReducers } from 'redux'
 import chores from './chores'
-import lists from './lists'
 import selectedList from './selected_list'
 import user from './user'
 import menuOpen from './menu_open'
 
 export default combineReducers({
   chores,
-  lists,
   selectedList,
   user,
   menuOpen

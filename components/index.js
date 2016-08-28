@@ -8,7 +8,7 @@ import {
 } from 'react-native';
 
 import Chores from '../containers/chores_link'
-import LogIn from '../containers/log_in'
+import LogIn from '../containers/log_in_link'
 
 class Index extends Component {
 

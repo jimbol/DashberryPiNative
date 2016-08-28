@@ -7,9 +7,7 @@ import {
   TouchableHighlight
 } from 'react-native';
 
-import { toggleMenu } from '../actions'
-
-const Header = ({dispatch, menuOpen}) => {
+const Header = ({menuOpen, onButtonPress}) => {
   let title = 'My Chores';
 
   if (menuOpen) {
@@ -22,35 +20,21 @@ const Header = ({dispatch, menuOpen}) => {
       {menu}
       <TouchableHighlight
         style={styles.button}
-        onPress={()=> onButtonPress(dispatch)}>
+        onPress={onButtonPress}>
         <Text style={styles.buttonLabel}>&#x2630;</Text>
       </TouchableHighlight>
       <TouchableHighlight
         style={styles.button}
-        onPress={()=> onButtonPress(dispatch)}>
+        onPress={onButtonPress}>
         <Text style={styles.buttonLabel}>+</Text>
       </TouchableHighlight>
     </View>
   );
 }
 
-const onButtonPress = (dispatch) => {
-  dispatch(toggleMenu())
-}
-
 Header.propTypes = {
-  menuOpen: PropTypes.bool.isRequired,
-  lists: PropTypes.array
-};
-
-function mapStateToProps(state) {
-  return {
-    menuOpen: state.menuOpen,
-    lists: state.lists,
-  }
+  menuOpen: PropTypes.bool.isRequired
 }
-
-Header = connect(mapStateToProps)(Header)
 
 const styles = StyleSheet.create({
   header: {

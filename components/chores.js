@@ -8,7 +8,7 @@ import {
   View
 } from 'react-native'
 
-import Header from './../containers/header'
+import Header from './../containers/header_link'
 import Chore from '../components/chore'
 
 const Chores = ({dispatch, chores, user, createChore}) => {
